@@ -1,0 +1,8 @@
+build:
+    tags:
+        - pitch
+    script:
+        - npm install
+        - xcopy ".\*.*" $DEPLOYPATH /E /K /D /H /Y /EXCLUDE:$EXCLUDEFILE
+    only:
+        - master        
