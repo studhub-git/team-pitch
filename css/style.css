@@ -41,3 +41,12 @@ canvas{
 .yellow_text{
 	color:yellow!important;
 }
+.team-member p{
+  text-align: center;
+  font-size: 25px;
+}
+.team-member img{
+  width: 200px;
+  height: 200px;
+  text-align: center; 
+}
